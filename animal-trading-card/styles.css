@@ -1,0 +1,45 @@
+/* add your CSS here */
+
+.h2margin {
+    margin: 12px;
+}
+
+.card-image {
+    width: 300px;
+    height: 200px;
+    padding: 12px;
+    border-radius: 20% 0 20% 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.interesting-fact {
+    font-style: italic;
+    margin: 0 5px 10px 2px;
+}
+
+.card-wrapper {
+    width: 330px;
+    padding: 5px 10px;
+    background-color: white;
+    border: solid sandybrown 1px;
+    box-shadow: 10px 10px 8px gray;
+}
+
+.card-info {
+    border: solid sandybrown 1px;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+    background-color: white;
+}
+
+.card-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.label {
+    font-weight: bold;
+}

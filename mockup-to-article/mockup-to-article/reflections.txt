@@ -1,0 +1,13 @@
+Reflection:
+
+1. What new skills have you learned?
+A skill that I've learned is going back to the EDM element reference to see what HTML codes aren't deprecated.
+
+2. What has been easy?
+It has been easy learning about the differences between the HTML of the 2000s and the HTML of today. There are still some similarities!
+
+3. What has been difficult?
+Not many difficulties too far. But I learned to read the mockups more carefully so that I don't miss any details!
+
+4. How have you used the problem solving strategies from the first project to overcome challenges so far?
+Yes! I looked at MDN to reference which tags to use. 
