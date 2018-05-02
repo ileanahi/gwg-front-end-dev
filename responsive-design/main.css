@@ -70,7 +70,7 @@ ul {
 
 .header__logo {
     height: 72px;
-    margin-right: 1em;
+    margin: 1em;
     vertical-align: top;
     margin-top: 12px;
 }
@@ -392,7 +392,16 @@ footer a {
 *
 */
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
+    html,
+    body,
+    main {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) {
     .content {
         display: flex;
         flex-wrap: wrap;
@@ -413,7 +422,8 @@ footer a {
 }
 
 @media screen and (min-width: 800px) {
-    .content {
+    .content,
+    .nav {
         margin: auto;
         width: 850px;
     }
@@ -424,10 +434,10 @@ footer a {
         width: 33.3333%;
     }
     .weather {
-        width: 50%;
+        width: 40%;
     }
     .scores {
-        width: 50%;
+        width: 60%;
     }
     .recent-news {
         width: 100;
