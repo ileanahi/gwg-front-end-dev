@@ -399,6 +399,16 @@ footer a {
         height: 100%;
         width: 100%;
     }
+    p {
+        font-size: 1.2em;
+    }
+    .snippet {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .snippet__thumbnail {
+        display: none;
+    }
     .header__logo {
         height: 48px;
     }
@@ -407,7 +417,7 @@ footer a {
         vertical-align: bottom;
     }
     .truncate {
-        width: 60%;
+        width: 80%;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -437,6 +447,10 @@ footer a {
     }
     .recent-news {
         width: 100%;
+    }
+    .snippet__thumbnail {
+        width: 18%;
+        margin-bottom: 1em;
     }
     .snippet__title {
         font-size: 18px;
