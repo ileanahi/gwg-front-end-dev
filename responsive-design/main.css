@@ -406,6 +406,14 @@ footer a {
         font-size: 2em;
         vertical-align: bottom;
     }
+    .truncate {
+        width: 60%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: justify;
+        line-height: 1.2em;
+    }
 }
 
 @media screen and (min-width: 500px) {
@@ -429,6 +437,32 @@ footer a {
     }
     .recent-news {
         width: 100%;
+    }
+    .snippet__title {
+        font-size: 18px;
+    }
+    .truncate {
+        overflow: hidden;
+        position: relative;
+        line-height: 1.2em;
+        max-height: 2.5em;
+        text-align: justify;
+        margin-right: -1em;
+        padding-right: 1em;
+    }
+    .truncate:before {
+        content: '...';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .truncate:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        width: 1em;
+        height: 1em;
+        margin-top: 0.2em;
     }
 }
 
